@@ -51,7 +51,7 @@ How to use Steps:
 
 6- Then open live server and click anywhere on the screen to start voice recognition.
 
-7- Say anuthing like:
+7- Say anything like:
 
   *Hello
   
