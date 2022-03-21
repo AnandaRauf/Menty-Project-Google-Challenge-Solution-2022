@@ -17,6 +17,7 @@ The main goals of building this website:
 4- This is just the MVP of our idea and we will keep on enhancing it with time.
 
 5- As we both are college students we are trying to learn different things one by one to implement those into out website.
+
 -----------------------------------------------------------------------------------------------------------------
 
 Version 1.0.0
