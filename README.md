@@ -47,7 +47,7 @@ How to use Steps:
   
   *npm install body-parser
   
-5- After installing all the required modules type: "node app1" on your terminal. You will get the message: "Running on port 5000".
+5- After installing all the required modules type: "node app1" on your terminal. You will get the message: "Running on port 5000". Also if you face any port related problem try changing the port to 5001.
 
 6- Then open live server and click anywhere on the screen to start voice recognition.
 
