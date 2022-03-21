@@ -39,7 +39,7 @@ How to use Steps:
 
 4- Install the modules:
 
-  *npm install npm install @google-cloud/dialogflow
+  *npm install @google-cloud/dialogflow
   
   *npm install uuid
   
