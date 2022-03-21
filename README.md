@@ -31,20 +31,33 @@ Tech Futuristic team:
 How to use Steps:
 
 1- Clone the Repository on your VS code.
+
 2- Run the terminal.
+
 3- Type "npm init" and enter all the desired datails.
+
 4- Install the modules:
+
   *npm install dialogflow
+  
   *npm install uuid
+  
   *npm install express
+  
   *npm install body-parser
   
 5- After installing all the required modules type: "node app1" on your terminal. You will get the message: "Running on port 5000".
+
 6- Then open live server and click anywhere on the screen to start voice recognition.
+
 7- Say anuthing like:
+
   *Hello
+  
   *How are you?
+  
   *What's your name?
+  
   *What is your main purpose? <-- To know the main purpose of building this website
   
 NOTE: The funcationality might not work at the first time as you open it on live server, then please click again and ask again. 
