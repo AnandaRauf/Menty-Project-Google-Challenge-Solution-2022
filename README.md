@@ -60,7 +60,7 @@ How to use Steps:
   *What's your name?
   
   *What is your main purpose? <-- To know the main purpose of building this website
------------------------------------------------------------------------------------------------------------------
+
 NOTE: The funcationality might not work at the first time as you open it on live server, then please click again and ask again. 
 -----------------------------------------------------------------------------------------------------------------
 
