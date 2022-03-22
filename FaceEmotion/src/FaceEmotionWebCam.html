@@ -30,11 +30,11 @@
 <body>
     <center style="padding:10px; margin:5px">
         <h4>
-            <span id="status">Model Loading ...</span>
+            <span id="status">Not face detected!</span>
         </h4>
     </center>
     <center style="padding:10px">
-        <button type="button" id='start' class="btn btn-outline-primary" onclick='startVideo()'>Start Detection</button>
+        <button type="button" id='start' class="btn btn-outline-primary" onclick='startVideo()'>Start detection</button>
     </center>
     <div class="inline">
         <center><span id="original_video"></span></center>
@@ -47,7 +47,7 @@
     </div>
     <div id = "thank">
         <center style="padding:10px; margin:5px">
-            <div>Maintained by <a href='http://mirlab.org/users/kevin.hsiao/'>Kevin Hsiao </a> and special thanks <a href="mailto:haochun.fu@mirlab.org" target="_top">Haochun Fu</a></div>
+            <div>Developed by Tech Futuristic team<a href='https://www.linkedin.com/in/ananda-rauf-maududi/'> <br>Leader:Ananda Rauf Maududi</a>Technical/CTO: <a href="https://www.linkedin.com/in/https://www.linkedin.com/in/harsh-sharma-95220922a/" target="_top">Hars Sharma</a></div>
         </center>
     </div>
 </body>
@@ -88,10 +88,10 @@
     // load models
     async function loadModel(path) {
         var status = document.getElementById('status');
-        //        status.innerText = "Model Loading ..."
+        //        status.innerText = "Loading....."
         model = await createModel(path)
 
-        status.innerText = "Model Loaded !!!"
+        status.innerText = "Face detected!"
     }
 
 
