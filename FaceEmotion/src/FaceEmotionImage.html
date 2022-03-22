@@ -21,7 +21,7 @@
 <body>
     <center style="padding:10px">
         <h4>
-            <div id="status">Load....</div>
+            <div id="status">Not face detected!</div>
         </h4>
 
     </center>
@@ -81,7 +81,7 @@
     let sizeType = 'lg';
     var offset_x = 10;
     var offset_y = 30;
-    loadModel('../models/mobilenetv1_models/model.json')
+    var path= 'FaceEmotion/models/mobilenetv1_models/model.json';
 
     // create model
     async function createModel(path) {
@@ -92,7 +92,7 @@
     // load models
     async function loadModel(path) {
         var lbl = document.getElementById("status");
-        lbl.innerText = "Not face detected! Please upload image!"
+        lbl.innerText = "Loading process....."
         model = await createModel(path)
 
         lbl.innerText = "Face detected!"
