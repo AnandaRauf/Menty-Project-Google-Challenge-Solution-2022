@@ -78,7 +78,7 @@
     var offset_x = 15;
     var offset_y = 40;
 
-    loadModel('FaceEmotion/models/mobilenetv1_models/model.json')
+    var path = 'FaceEmotion/models/mobilenetv1_models/model.json';
     // create model
     async function createModel(path) {
         let model_tmp = await tf.loadModel(path)
@@ -192,7 +192,7 @@
             faces = await faceDetector.detect(canvas)
             isDetectingFaces = false
             var status = document.getElementById('status');
-            status.innerHTML = "Running the model ... ";
+            status.innerHTML = "Loading process.....";
         }
     }
 
