@@ -24,33 +24,11 @@ const clearElements = () => {
   rightEyebrow.classList.add("eyebrow", "right-eyebrow", "none");
 };
 
-function listendom(no) {
-  console.log(no);
-  document.getElementById("MSG").value = no.innerHTML;
-  insertMessage();
-}
-
 $(window).load(function () {
   setTimeout(function () {
     console.log("Hello there, how are you?");
   }, 0000);
 });
-
-function insertMessage() {
-  msg = $(".message-input").val();
-  if ($.trim(msg) == "") {
-    return false;
-  }
-  fetchmsg();
-
-  $(".message-input").val(null);
-}
-
-function serverMessage(response2) {
-  if ($(".message-input").val() != "") {
-    return false;
-  }
-}
 
 function fetchmsg(data) {
   var url = "http://localhost:5000/send-msg";
