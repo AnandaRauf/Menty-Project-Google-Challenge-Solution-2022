@@ -67,4 +67,3 @@ How to use Steps:
 NOTE: The funcationality might not work at the first time as you open it on live server, then please click again and ask again. 
 -----------------------------------------------------------------------------------------------------------------
 
------------------------------------------------------------------------------------------------------------------
