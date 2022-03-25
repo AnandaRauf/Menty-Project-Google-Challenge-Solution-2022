@@ -100,10 +100,12 @@ function fetchmsg(data) {
               "blink 4s ease-in forwards infinite";
             document.getElementById("eyes right blink").style.animation =
               "blink 4s ease-in forwards infinite";
-              document.getElementById("eyebrow left-eyebrow").style.animation =
-              "sad-left-eyebrow 4s ease-in forwards 0";
-            document.getElementById("eyebrow right-eyebrow").style.animation =
-              "sad-right-eyebrow 4s ease-in forwards 0";
+            document.getElementById(
+              "eyebrow left-eyebrow"
+            ).style.animationPlayState = "paused";
+            document.getElementById(
+              "eyebrow right-eyebrow"
+            ).style.animationPlayState = "paused";
           }, 8000);
         }
       }
