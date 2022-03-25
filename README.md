@@ -29,7 +29,7 @@ Developed by Tech Futuristic team.
 
 Tech Futuristic team:
 - Ananda Rauf Maududi(Leader).
-- Hars Sharma(Techninal / CTO ).
+- Harsh Sharma(Techninal / CTO ).
 -----------------------------------------------------------------------------------------------------------------
 How to use Steps:
 -----------------------------------------------------------------------------------------------------------------
