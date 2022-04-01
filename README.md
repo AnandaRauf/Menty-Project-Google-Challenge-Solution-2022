@@ -1,11 +1,11 @@
 Project for Google Solution Challenege 2022 (Name: Menty - (Mently healthy))
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Ananda Rauf and Harsh Sharma together build this website which works using google technology - (Dialogflow and Chrome Shape Detection Api for FaceEmotion feature)(Maintenance feature).
+Ananda Rauf and Harsh Sharma together build this website which works using google technology - (Dialogflow, Teachable Machine,Tensorflow Js for Disease Detection and Chrome Shape Detection Api for FaceEmotion feature)(Maintenance feature).
 
 [Visit and get Chrome Shape Detection API](https://chrome://flags/#enable-experimental-web-platform-features)
 
-
+[Visit demo website](menty.000webhostapp.com)
 -----------------------------------------------------------------------------------------------------------------
 
 The main goals of building this website:
