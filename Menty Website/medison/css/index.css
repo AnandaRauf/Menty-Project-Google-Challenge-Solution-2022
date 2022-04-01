@@ -1,0 +1,42 @@
+h1.title_h1{
+	color: Skyblue
+}
+body {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+main {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+section {
+  margin: 2rem 1rem;
+}
+
+.file-group {
+  padding: 1rem;
+  background: #efefef;
+  border-radius: 1rem;
+}
+
+#image {
+  max-width: 100%;
+  width: 400px;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+.image-section {
+  display: none;
+  position: relative;
+}
+
+.image-loaded .image-section {
+  display: block;
+}
