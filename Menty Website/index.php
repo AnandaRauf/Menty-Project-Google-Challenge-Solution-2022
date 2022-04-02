@@ -13,20 +13,48 @@
 <meta name="keywords" content="html,css,js" />
 <meta name=keywords" content="Menty,menty,mently healhty,Mently Healthy,Disease Detection,Personal Assistant, personal assistant,disease detection,disease"/>
 <meta name="description" content="Menty Mently Healthy projects Personal Assistant and Disease Detection" />
-<link rel="canonical" href="https://menty.000webhostapp.com/menty"/>
+<link rel="canonical" href="https://mentlyhealthy.000webhostapp.com/"/>
 <link rel="stylesheet" href="css/index.css" type="text/css"/>
-<script src="js/index.js"></script>
 <link rel="icon" href="asset/favicon.ico" type="image/x-icon"/>
 </head>
 <title>Menty(Mently Healthy) - Personal Asssistant and Disease Detection</title>
 <body>
+<script>
+    // disable right click
+    document.addEventListener('contextmenu', event => event.preventDefault());
+
+    document.onkeydown = function (e) {
+
+        // disable F12 key
+        if(e.keyCode == 123) {
+            return false;
+        }
+
+        // disable I key
+        if(e.ctrlKey && e.shiftKey && e.keyCode == 73){
+            return false;
+        }
+
+        // disable J key
+        if(e.ctrlKey && e.shiftKey && e.keyCode == 74) {
+            return false;
+        }
+
+        // disable U key
+        if(e.ctrlKey && e.keyCode == 85) {
+            return false;
+        }
+    }
+
+</script>
+<script src="https://mentlyhealthy.000webhostapp.com/js/index.js" text="type/javascript"></script>
 <div class="scroll-button">
     <a href="#home"><i class="fas fa-arrow-up"></i></a>
   </div>
   <!-- navgaition menu -->
   <nav>
     <div class="navbar">
-      <div class="logo"><a href="https://menty.000webhostapp.com/menty">Menty</a></div>
+      <div class="logo"><a href="https://mentlyhealthy.000webhostapp.com/">Menty</a></div>
       <ul class="menu">
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
@@ -36,7 +64,7 @@
       </ul>
       <div class="media-icons">
         <a href="https://www.linkedin.com/in/ananda-rauf-maududi"><i class="fa-brands fa-linkedin">Linkedin Ananda Rauf Maududi</i></a>
-        <a href="https://www.linkedin.com/in/"><i class="fa-brands fa-linkedin">Linkedin Ananda Rauf Maududi</i></a>
+        <a href="https://www.linkedin.com/in/harsh-sharma-95220922a/"><i class="fa-brands fa-linkedin">Linkedin Ananda Rauf Maududi</i></a>
        
       </div>
     </div>
@@ -76,7 +104,7 @@
       <div class="button">
         <a href="https://www.linkedin.com/in/ananda-rauf-maududi"<button>Follow and Connect Linkedin Ananda Rauf Maududi</button>
         <br></a></br>
-        <a href="https://www.linkedin.com/in/ananda-rauf-maududi"<button>Follow and Connect Linkedin Hars Sharma</button></a>
+        <a href="https://www.linkedin.com/in/harsh-sharma-95220922a/"<button>Follow and Connect Linkedin Hars Sharma</button></a>
       </div>
     </div>
   </div>
