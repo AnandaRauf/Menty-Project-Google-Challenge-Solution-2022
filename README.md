@@ -5,7 +5,7 @@ Ananda Rauf and Harsh Sharma together build this website which works using googl
 
 [Visit and get Chrome Shape Detection API](https://chrome://flags/#enable-experimental-web-platform-features)
 
-[Visit demo website](menty.000webhostapp.com)
+[Visit demo website](mentlyhealthy.000webhostapp.com)
 -----------------------------------------------------------------------------------------------------------------
 
 The main goals of building this website:
