@@ -4,298 +4,246 @@ html {
   background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
 }
 .container {
-	height: 100vh;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: up-and-down 3s ease-in-out infinite alternate;
 }
 
+@keyframes up-and-down {
+  0% {
+    transform: translateY(10%);
+  }
+}
+
+/* .bubble {
+  height: 65px;
+  width: 65px;
+  background-color: rgba(255, 255, 255, 0.7);
+  position: absolute;
+  left: 250px;
+  top: 200px;
+  border-radius: 50px 50px 50px 5px;
+  animation: bubble-scale 2s infinite;
+}
+
+@keyframes bubble-scale {
+  50% {
+    transform: scale(1.6);
+  }
+}
+
+.closed-eyes-left {
+  height: 7px;
+  width: 100px;
+  background-color: #51ecff;
+  border: 2px solid #2c2c2c;
+  position: absolute;
+  border-radius: 0 0 50px 50px;
+  border-top: none;
+  top: 170px;
+  left: 90px;
+}
+
+.closed-eyes-right {
+  height: 7px;
+  width: 100px;
+  background-color: #51ecff;
+  border: 2px solid #2c2c2c;
+  position: absolute;
+  border-radius: 0 0 50px 50px;
+  border-top: none;
+  top: 170px;
+  left: 300px;
+} */
+
 .head {
-	width: 500px;
-	height: 450px;
-	background-color: black;
-	border-radius: 30%;
-	position: relative;
+  width: 500px;
+  height: 450px;
+  background-color: black;
+  border-radius: 30%;
+  position: relative;
   left: 32px;
+  box-shadow: -10px -10px 90px #94d5e3;
 }
 
 .actions {
-	margin-left: 40px;
-	font-size: 200%;
-	text-align: left;
-	cursor: pointer;
+  margin-left: 40px;
+  font-size: 200%;
+  text-align: left;
+  cursor: pointer;
 }
 
 .active {
-	width: 100px;
-	background-color: #51ecff;
+  width: 100px;
+  background-color: #51ecff;
 }
 
 .eyes {
-	background-color: #51ecff;
-	width: 150px;
-	height: 150px;
-	border-radius: 100%;
+  background-color: #51ecff;
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
 
-	position: absolute;
-	top: 130px;
+  position: absolute;
+  top: 130px;
 }
 .left {
-	left: 70px;
+  left: 70px;
 }
 
 .right {
-	right: 70px;
+  right: 70px;
 }
 
 .eyebrow {
-	z-index: 10;
-	position: absolute;
-	top: 35px;
-	width: 200px;
-	height: 90px;
-	background-color: black;
+  z-index: 10;
+  position: absolute;
+  top: 35px;
+  width: 200px;
+  height: 90px;
+  background-color: black;
 }
 
 .left-eyebrow {
-	left: 45px;
+  left: 45px;
 }
 
 .right-eyebrow {
-	right: 45px;
+  right: 45px;
 }
 
 .ball {
-	z-index: 10;
-	position: absolute;
-	bottom: 0px;
-	width: 200px;
-	height: 150px;
-	border-radius: 50%;
-	background-color: black;
+  z-index: 10;
+  position: absolute;
+  bottom: 0px;
+  width: 200px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: black;
 }
 
 .left-ball {
-	left: 45px;
+  left: 45px;
 }
 
 .right-ball {
-	right: 45px;
+  right: 45px;
 }
 
 .blink {
-	animation: blink 4s ease-in forwards infinite;
+  animation: blink 4s ease-in forwards infinite;
 }
 
 .happy-ball {
-	animation: happy-ball 4s ease-in forwards infinite;
+  animation: happy-ball 4s ease-in forwards infinite;
 }
 .happy {
-	animation: happy 4s ease-in forwards infinite;
-}
-
-.suspect {
-	animation: suspect 5s ease-in forwards infinite;
-}
-
-.angry {
-	border-radius: 0px;
-	animation: angry 5s ease-in infinite;
-}
-
-.angry-left {
-	transform: rotate(90deg);
-}
-
-.angry-right {
-	transform: rotate(-90deg);
-}
-
-.dizzy {
-	animation: dizzy 1.6s ease-in infinite;
+  animation: happy 4s ease-in forwards infinite;
 }
 
 .sad {
-	animation: sad 4s ease-in forwards infinite;
+  animation: sad 4s ease-in forwards infinite;
 }
 
 .sad-left-eyebrow {
-	animation: sad-left-eyebrow 4s ease-in forwards infinite;
+  animation: sad-left-eyebrow 4s ease-in forwards infinite;
 }
 
 .sad-right-eyebrow {
-	animation: sad-right-eyebrow 4s ease-in forwards infinite;
+  animation: sad-right-eyebrow 4s ease-in forwards infinite;
 }
 
 .none {
-	display: none;
+  display: none;
 }
 
 @keyframes blink {
-	0% {
-		transform: scaleY(1);
-	}
-	3% {
-		transform: scaleY(0);
-	}
-	6% {
-		transform: scaleY(1);
-	}
+  0% {
+    transform: scaleY(1);
+  }
+  3% {
+    transform: scaleY(0);
+  }
+  6% {
+    transform: scaleY(1);
+  }
 }
 
 @keyframes happy {
-	15% {
-		border-radius: 47%;
-	}
-	60% {
-		border-radius: 47%;
-	}
-	63% {
-		border-radius: 30%;
-	}
+  15% {
+    border-radius: 47%;
+  }
+  60% {
+    border-radius: 47%;
+  }
+  63% {
+    border-radius: 30%;
+  }
 }
 
 @keyframes happy-ball {
-	15% {
-		transform: translateY(-100px);
-	}
-	60% {
-		transform: translateY(-100px);
-	}
-	63% {
-		transform: translateY(0px);
-	}
-}
-
-@keyframes suspect {
-	0% {
-		transform: scaleY(1) translateY(0px);
-	}
-	50% {
-		transform: scaleY(0.3) translateY(30px);
-	}
-	75% {
-		transform: scaleY(0.3) translateY(50px);
-	}
-	80% {
-		transform: scaleY(1) translateY(0px);
-	}
-}
-
-@keyframes angry {
-	2% {
-		width: 0;
-		height: 0;
-		border-style: solid;
-		background-color: black;
-		border-width: 0 100px 100px 100px;
-		border-color: transparent transparent #51ecff transparent;
-
-		top: 150px;
-	}
-	10% {
-		top: 145px;
-	}
-	15% {
-		top: 155px;
-	}
-	20% {
-		top: 145px;
-	}
-	25% {
-		top: 155px;
-	}
-	30% {
-		top: 145px;
-	}
-	35% {
-		top: 155px;
-	}
-	40% {
-		top: 145px;
-	}
-	45% {
-		top: 155px;
-	}
-	50% {
-		width: 0;
-		height: 0;
-		border-style: solid;
-		background-color: black;
-		border-width: 0 100px 100px 100px;
-		border-color: transparent transparent #51ecff transparent;
-		top: 150px;
-	}
-	51% {
-		border-width: 0 50px 50px 50px;
-	}
-	52% {
-		background-color: #51ecff;
-		width: 150px;
-		height: 150px;
-		border-radius: 30%;
-		border: none;
-		position: absolute;
-		top: 130px;
-	}
-}
-
-@keyframes dizzy {
-	90% {
-		transform: rotate(360deg);
-	}
+  15% {
+    transform: translateY(-100px);
+  }
+  60% {
+    transform: translateY(-100px);
+  }
+  63% {
+    transform: translateY(0px);
+  }
 }
 
 @keyframes sad {
-	0% {
-		border-radius: 30%;
-	}
-	50% {
-		border-radius: 50%;
-		transform: scaleX(0.9);
-	}
-	94% {
-		border-radius: 50%;
-		transform: scaleX(0.9);
-	}
+  0% {
+    border-radius: 30%;
+  }
+  50% {
+    border-radius: 50%;
+    transform: scaleX(0.9);
+  }
+  94% {
+    border-radius: 50%;
+    transform: scaleX(0.9);
+  }
 }
 
 @keyframes sad {
-	0% {
-		border-radius: 30%;
-	}
-	50% {
-		border-radius: 50%;
-		transform: scaleX(0.9) scaleY(1.1) translateY(60px);
-	}
-	94% {
-		border-radius: 50%;
-		transform: scaleX(0.9) scaleY(1.1) translateY(60px);
-	}
+  0% {
+    border-radius: 30%;
+  }
+  50% {
+    border-radius: 50%;
+    transform: scaleX(0.9) scaleY(1.1) translateY(60px);
+  }
+  94% {
+    border-radius: 50%;
+    transform: scaleX(0.9) scaleY(1.1) translateY(60px);
+  }
 }
 
 @keyframes sad-left-eyebrow {
-	0% {
-	}
-	50% {
-		transform: translateY(100px) translateX(-20px) rotate(-30deg);
-	}
-	94% {
-		transform: translateY(100px) translateX(-20px) rotate(-30deg);
-	}
+  0% {
+  }
+  50% {
+    transform: translateY(100px) translateX(-20px) rotate(-30deg);
+  }
+  94% {
+    transform: translateY(100px) translateX(-20px) rotate(-30deg);
+  }
 }
 
 @keyframes sad-right-eyebrow {
-	0% {
-	}
-	50% {
-		transform: translateY(100px) translateX(20px) rotate(30deg);
-	}
-	94% {
-		transform: translateY(100px) translateX(20px) rotate(30deg);
-	}
+  0% {
+  }
+  50% {
+    transform: translateY(100px) translateX(20px) rotate(30deg);
+  }
+  94% {
+    transform: translateY(100px) translateX(20px) rotate(30deg);
+  }
 }
-
 
 /*Love expression */
 
@@ -320,7 +268,7 @@ html {
     transform: rotate(-45deg) scale(1.07);
   }
   80% {
-    transform: rotate(-45deg) scale(1.0);
+    transform: rotate(-45deg) scale(1);
   }
   100% {
     transform: rotate(-45deg) scale(0.8);
@@ -328,7 +276,7 @@ html {
 }
 
 #heartbeat:before {
-  content: '';
+  content: "";
   position: absolute;
   width: 200px;
   height: 200px;
@@ -339,7 +287,7 @@ html {
 }
 
 #heartbeat:after {
-  content: '';
+  content: "";
   position: absolute;
   width: 200px;
   height: 200px;
