@@ -9,7 +9,7 @@ Ananda Rauf and Harsh Sharma together build this website which works using googl
 
 [Visit and Watching Video Demo 2]()
 
-[Visit demo website](mentlyhealthy.000webhostapp.com)
+[Visit demo website](https://mentlyhealthy.000webhostapp.com)
 
 Maintenance website page:
 - Face Emotion Detection.
