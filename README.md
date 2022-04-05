@@ -7,7 +7,7 @@ Ananda Rauf and Harsh Sharma together build this website which works using googl
 
 [Visit and Watching Video Demo 1](https://www.youtube.com/watch?v=wdQqlsCKZBg&t=5s)
 
-[Visit and Watching Video Demo 2]()
+[Visit and Watching Video Demo 2](https://youtu.be/vWxHmis5ivs)
 
 [Visit demo website](https://mentlyhealthy.000webhostapp.com)
 
