@@ -1,28 +1,16 @@
 Project for Google Solution Challenege 2022 (Name: Menty - (Mently healthy))
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Ananda Rauf and Harsh Sharma together build this website which works using google technology - (Dialogflow, Teachable Machine,Tensorflow Js for Disease Detection and Chrome Shape Detection Api for FaceEmotion feature)(Maintenance feature).
-
-[Visit and get Chrome Shape Detection API](https://chrome://flags/#enable-experimental-web-platform-features)
-
-[Visit and Watching Video Demo 1](https://www.youtube.com/watch?v=wdQqlsCKZBg&t=5s)
-
-[Visit and Watching Video Demo 2](https://youtu.be/vWxHmis5ivs)
-
-[Visit demo website](https://mentlyhealthy.000webhostapp.com)
-
-Maintenance website page:
-- Face Emotion Detection.
-- Disease Detection.
+Ananda Rauf and Harsh Sharma together build this website which works using google technology - Dialogflow
 
 -----------------------------------------------------------------------------------------------------------------
 
 The main goals of building this website:
 -----------------------------------------------------------------------------------------------------------------
 
-1- We are trying to use AI (technology) to help people cope up with their depression/lonliness problems. 
+1- We are trying to use AI (technology) to help people cope up from their depression/lonliness problems. 
 
-2- We are trying to integrate the beautiful quotes of some famous spiritual books to help teens and young adults making better decisions in life.
+2- We are trying to integrate the beautiful quotes of some famous spiritual books to help teens and young adults make better decisions in life.
 
 3- The project is not so much advanced yet, we tried to integrate some common expressions of happiness,sadness and normal eye blink to make it more human like and attractive, but still lot of work is yet to be done to make it more adavance.
 
